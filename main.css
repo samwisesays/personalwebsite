@@ -3,7 +3,18 @@ html {
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 700px;
+    margin: 0 16px;
     background-color: beige;
+}   
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        background-color: lightcyan;
+    }
+}
+@media only screen and (min-width:1001px) and (max-width: 4000px) {
+    .container {
+        margin: 0 auto; 
+        max-width: 1000px;
+        background-color: lightgray;
+    }
 }
