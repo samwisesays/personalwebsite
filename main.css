@@ -7,4 +7,13 @@ html {
     max-width: 1000px;
     background-color: beige;
     padding: 0 16px;
-}   
+} 
+.nav-list-item:last-child {
+    margin: 0px;
+}
+
+.nav-list-item {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 40px;
+}
