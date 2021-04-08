@@ -8,6 +8,10 @@ html {
     background-color: beige;
     padding: 0 16px;
 } 
+
+.nav-list {
+    text-align: center;
+}
 .nav-list-item:last-child {
     margin: 0px;
 }
